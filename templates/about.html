@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+  <meta content="width=device-width,initial-scale=1" name="viewport" />
+  <meta content="description" name="description" />
+  <meta name="google" content="notranslate" />
+  <meta content="Mashup templates have been developed by Orson.io team" name="author" />
+
+  <!-- Disable tap highlight on IE -->
+  <meta name="msapplication-tap-highlight" content="no" />
+
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ url_for('static', filename='assets/apple-icon-180x180.png') }}" />
+  <link href="{{ url_for('static', filename='assets/favicon.ico') }}" rel="icon" />
+  <title>About Kimani Hezekiah Nyutu</title>
+
+  <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='main.css') }}" />
+</head>
+
+<body class="">
+  <div id="site-border-left"></div>
+  <div id="site-border-right"></div>
+  <div id="site-border-top"></div>
+  <div id="site-border-bottom"></div>
+
+  <!-- Add your content of header -->
+  <header>
+    <nav class="navbar navbar-fixed-top navbar-default">
+      <div class="container">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse"
+          aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbar-collapse">
+          <ul class="nav navbar-nav ">
+            <li><a href="{{ '/index.html' }}" title="">01 : Home</a></li>
+            <li><a href="{{ '/works.html' }}" title="">02 : Works</a></li>
+            <li><a href="{{ '/about.html' }}" title="">03 : About me</a></li>
+            <li><a href="{{ '/contact.html' }}" title="">04 : Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div class="section-container">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="section-container-spacer text-center">
+            <h1 class="h2">03 : About Me</h1>
+          </div>
+
+          <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+              <div class="row">
+                <div class="col-xs-12 col-md-6">
+                  <h3>Hi there!</h3>
+                  <p>
+                    I am Kimani Hezekiah Nyutu, a dedicated and enthusiastic Python developer based in Nyeri, Kenya, currently pursuing a Bachelor of Science in Information Technology and Computer Science at Dedan Kimathi University of Technology.
+                  </p>
+
+                  <h3>What languages do you speak?</h3>
+                  <p>
+                    I am proficient in English and Kiswahili. In addition to human languages, I also "speak" Python fluently, using it with frameworks like Flask and Django to create powerful web applications.
+                  </p>
+
+                  <h3>Where did you learn software development?</h3>
+                  <p>
+                    My journey into software development began with online resources like Udemy, Coursera, and Edx, combined with hands-on practice through various personal projects and internships.
+                  </p>
+                </div>
+                <div class="col-xs-12 col-md-5" style="padding: 40px;">
+                  <img
+                    src="https://firebasestorage.googleapis.com/v0/b/portfolio-flask.appspot.com/o/profil.jpg?alt=media&token=72b30c0f-3083-4391-889c-f0beed5a901c"
+                    class="img-responsive" alt="Kimani Hezekiah Nyutu" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+              <h3>Professional Experience</h3>
+              <p>
+                <strong>HNG Internship - Python Developer</strong><br>
+                10/2021 - Present<br>
+                During my internship, I assisted in the development of a Django-based web application and played a key role in designing and implementing the database schema using SQLite.
+              </p>
+
+              <h3>Personal Projects</h3>
+              <p>
+                <strong>Online Shopping Platform</strong><br>
+                Developed a web application using the Flask framework, enabling users to browse and purchase products online.<br><br>
+
+                <strong>Recipe Search Engine</strong><br>
+                Designed and developed a search engine using Python and Django that allows users to search for recipes based on ingredients and dietary restrictions.
+              </p>
+
+              <h3>Skills</h3>
+              <ul>
+                <li>Programming Languages: Python, HTML, CSS</li>
+                <li>Frameworks: Flask, Django</li>
+                <li>Databases: MySQL, SQLite</li>
+              </ul>
+
+              <h3>Interests</h3>
+              <p>
+                In my free time, I enjoy reading books on software development and technology trends. I'm an avid soccer fan and enjoy both playing and watching the sport. Additionally, I volunteer in my local community and participate in charity events.
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer-container text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <p>
+            © 2024 Kimani Hezekiah Nyutu
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function (event) {
+      navActivePage();
+    });
+  </script>
+
+  <script type="text/javascript" src="{{ url_for('static', filename='main.js') }}"></script>
+</body>
+
+</html>
